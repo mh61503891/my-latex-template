@@ -1,0 +1,7 @@
+[tools]
+bun = "latest"
+
+[tasks]
+build = "latexmk"
+watch = "latexmk -pvc -shell-escape"
+clean = "latexmk -c"
